@@ -1,0 +1,30 @@
+/* 
+ This CSS file is used to override the existing styles of the theme.
+ You can change the article headings, fonts, colors, etc.
+*/
+
+
+
+/* Estilos agregados! */
+.team-member-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.team-member-name {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.team-member-position {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
